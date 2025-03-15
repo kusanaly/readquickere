@@ -57,7 +57,7 @@ import requests
 #       v4/pushnotification/register
 #       v4/search/map
 
-BASE_URL = "https://www.geoguessr.com/api/v4/games/infinity/guess"  # Base URL for all endpoints
+BASE_URL = "https://www.geoguessr.com/api/v4/feed/private"  # Base URL for all endpoints
 _ncfa_TOKEN = "D20SA9pa7hVAglhiQEKYAIRf84ciDLsE7Y8TQhJnQsQ%3DtCBhjqDayH23gDBtG%2FcTIFiF7QpZ56iSkcCZL1s2AnX2ciiX%2FoFW%2FhT47yMhKA11ePpJ30Y7u39v2c8PLw9nrL603ZMqCuKbxX%2F4bcySXrU%3D"  # Insert your _ncfa token here
 
 # Create a session object and set the _ncfa cookie
