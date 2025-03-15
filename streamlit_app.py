@@ -71,6 +71,7 @@ profiles = session.get(f"{BASE_URL}profiles")
 if profiles.status_code == 200:
     # Print the response as text
     print(profiles.text)
+    st.write(profiles.text)
 else:
     # Print an error message
     print(f"Error: {profiles.status_code}")
