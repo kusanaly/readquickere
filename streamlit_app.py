@@ -4,7 +4,7 @@ import numpy as np
 from requests import Session
 import json
 # import helpers
-import plotly.express as px
+#import plotly.express as px
 import altair as alt
 from datetime import timedelta
 import datetime
